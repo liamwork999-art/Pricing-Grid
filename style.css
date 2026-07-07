@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to bottom, rgb(21, 21, 80), blue);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin-top: 30px;
+  font-size: 10px;
+  font-weight: 500;
+  list-style: none; /* Removes the standard dots */
+  padding: 0; /* Removes default indentation */
+  margin: 10px 0; /* Adds clean vertical spacing */
+}
+
+ul li {
+  position: relative;
+  padding-left: 15px; /* Creates space on the left for the icon */
+  margin-bottom: 8px; /* Adds space between each list item */
+}
+
+ul li::before {
+  content: "✓"; /* The checkmark character */
+  color: #2ecc71; /* A clean, modern green color */
+  font-weight: bold; /* Makes the checkmark stand out */
+  position: absolute; /* Locks the position to the left */
+  left: 0; /* Aligns it perfectly to the left edge */
+  top: 0; /* Aligns it with the top of the text */
+}
+.container {
+  background-color: aliceblue;
+  /* display: flex; */
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pricing {
+  padding: 40px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid rgb(222, 237, 251, 0.5);
+  background-color: white;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+  /* background-color: rgb(244, 244, 244); */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.dollar {
+  font-size: medium;
+  font-weight: 500;
+}
+.card .price {
+  text-align: center;
+  margin: 20px;
+  /* font-size: ; */
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.per-month {
+  font-size: small;
+  font-weight: 600;
+}
+
+.price-info {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-transform: uppercase;
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border: 2px solid rgb(73, 73, 73, 0.5);
+  border-radius: 4px;
+  padding: 8px 0px;
+  margin: 20px 0px;
+}
+
+.header-1 {
+  background-color: rgb(229, 229, 229, 0.4);
+}
+
+.header-2 {
+  background-image: linear-gradient(
+    to right,
+    rgb(146, 228, 255),
+    rgb(117, 71, 225, 0.5)
+  );
+  color: white;
+}
+
+.header-3 {
+  background-image: linear-gradient(
+    to right,
+    rgb(210, 100, 197, 0.5),
+    rgb(237, 200, 69, 0.5)
+  );
+  color: white;
+}
+
+.btn-2 {
+  background-color: rgb(1, 1, 95);
+  color: white;
+}

@@ -37,7 +37,13 @@ This kind of layout is commonly used in landing pages and SaaS websites. It is a
 2. Open [Pricing_Grid/index.html](Pricing_Grid/index.html).
 3. Preview it with Live Server or open the file in a browser.
 
-## 🛠️ Technologies used
+## �️ Screenshots
+
+![Pricing Grid Preview](screenshot.png)
+
+![Pricing Grid Layout](screenshot1.png)
+
+## �🛠️ Technologies used
 
 - HTML
 - CSS
