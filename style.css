@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  box-sizing: border-box;
+  line-height: 1.6;
 }
 
 body {
@@ -46,7 +47,7 @@ ul li::before {
 }
 
 .pricing {
-  padding: 40px 20px;
+  padding: 60px 20px;
   display: flex;
   gap: 20px;
 }
@@ -56,6 +57,7 @@ ul li::before {
   background-color: white;
   padding: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  flex: 1 0 230px;
 }
 
 .card h2 {
@@ -89,14 +91,14 @@ ul li::before {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .main-text {
   font-size: 10px;
   text-align: center;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .btn {
@@ -111,6 +113,7 @@ ul li::before {
   border-radius: 4px;
   padding: 8px 0px;
   margin: 20px 0px;
+  margin-bottom: 30px;
 }
 
 .header-1 {
@@ -119,18 +122,18 @@ ul li::before {
 
 .header-2 {
   background-image: linear-gradient(
-    to right,
-    rgb(146, 228, 255),
-    rgb(117, 71, 225, 0.5)
+    90deg,
+    rgba(194, 227, 255, 1) 13%,
+    rgba(180, 118, 254, 1) 100%
   );
   color: white;
 }
 
 .header-3 {
   background-image: linear-gradient(
-    to right,
-    rgb(210, 100, 197, 0.5),
-    rgb(237, 200, 69, 0.5)
+    90deg,
+    rgba(255, 177, 194, 1) 13%,
+    rgba(255, 203, 114, 1) 100%
   );
   color: white;
 }
