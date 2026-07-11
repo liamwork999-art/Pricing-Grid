@@ -55,8 +55,6 @@ This kind of layout is commonly used in landing pages and SaaS websites. It is a
 
 You can enhance this project by adding:
 
-- hover effects
-- responsive mobile behavior
 - dark mode styling
 - toggle between monthly and yearly pricing
 - animated transitions
