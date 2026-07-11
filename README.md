@@ -39,7 +39,7 @@ This kind of layout is commonly used in landing pages and SaaS websites. It is a
 
 ## �️ Screenshots
 
-![Pricing Grid Preview](screenshotv1.png)
+![Pricing Grid Preview](screenshot.png)
 
 ## �🛠️ Technologies used
 
